@@ -1,3 +1,7 @@
+# parcel cache + output dir
+.cache
+dist
+
 # Logs
 logs
 *.log

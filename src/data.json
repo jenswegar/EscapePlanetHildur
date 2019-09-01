@@ -1,0 +1,143 @@
+{
+    "rooms":[
+        {
+            "id": 0,
+            "description": "Escape from planet Hildur. \n\nYou embarked on a magnificent journey across the galaxy in order to find the king of Gulor, who was kidnapped from your home planet a few weeks ago. Unfortunately a mysterious force pulled your space craft out of course and caused it to crash on a planet you did not even know existed until you saw the inevitable fate of your trajectory towards the surface.\n\nType 'help' and press enter to figure out what you can do about your situation.\n\nType 'start' to embark on your journey.",
+            "exits": {
+            },
+            "items": []
+        },
+        {
+            "id": 1,
+            "description": "You are at the beautiful place where your body first made contact with this planet in an unruly fashion. You still feel a bit dizzy from the crash, but start to take notice of your surroundings. \n\nYou see the smoking wreck of your spaceship to the west. To the east you see the edge of what appears to be a forrest. To the south is a steep cliff, and to the north all you see is a red ocean disappearing into the horizon.",
+            "exits": {
+                "east": 2,
+                "west": 3
+            },
+            "items": []
+        },
+        {
+            "id": 2,
+            "description": "You are in the remains of your spaceship. There is enough light coming through the from windows for you to make out some shapes in the shadows on the floor.",
+            "exits": {
+                "west": 1
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Flashlight",
+                    "tags": [
+                        "flashlight", "light"
+                    ],
+                    "description": "a flashlight",
+                    "isCarryable": true
+                },
+                {
+                    "id": 2,
+                    "name": "Old backpack",
+                    "tags": [
+                        "backpack"
+                    ],
+                    "description": "your old backpack",
+                    "isCarryable": true
+                },
+                {
+                    "id": 3,
+                    "name": "Old hit novel",
+                    "tags": [
+                        "book",
+                        "novel"
+                    ],
+                    "description": "a copy of the hit novel 'Oh why did you forsake me, my invisible monkey?' by Friedich Unterbinder",
+                    "isCarryable": true
+                },
+                {
+                    "id": 4,
+                    "name": "Big box of nutrition bars",
+                    "tags": [
+                        "nutrition",
+                        "box"
+                    ],
+                    "description": "a big box with the words nutrition stamped on it",
+                    "isCarryable": false,
+                    "contains": {
+                        "id": 5,
+                        "name": "Nutrition bars",
+                        "tags": [
+                            "nutrition",
+                            "bar"
+                        ],
+                        "description": "some nutrition bars",
+                        "isCarryable": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "description": "You are on the field on the way towards the forrest. You see some weird creatures flying in the sky looking almost completely, but not quite, unlike birds. Luckily they seem to be completely ignorant of you.",
+            "exits": {
+                "west": 5,
+                "east": 1
+            },
+            "items": []
+        },
+        {
+            "id": 4,
+            "description": "You are at the edge of the forrest. To the north you see a red ocean.",
+            "exits": {
+                "south": 5
+            },
+            "items": []
+        },
+        {
+            "id": 5,
+            "description": "You are at the edge of the forrest. Up close, the trees look like giant spiders, the roots of each tree connecting to a layer of branches high above you. There seems to be a path going into the forrest. To the south and north the edge of the forrest continues.",
+            "exits": {
+                "north": 4,
+                "south": 6,
+                "east": 8,
+                "west": 3
+            },
+            "items": [
+                {
+                    "id": 6,
+                    "name": "Tree branch",
+                    "tags": [
+                        "branch"
+                    ],
+                    "description": "a short but funny looking tree branch",
+                    "isCarryable": true
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "description": "You are at the edge of the forrest. A path leads into the forrest both to the east and to the south.",
+            "exits": {
+                "north": 5,
+                "south": 7
+            },
+            "items": []
+        },
+        {
+            "id": 7,
+            "description": "You are on a path in the forrest. There seems to be light coming through the trees to the east. A mountain towers above you to the south.",
+            "exits": {
+                "north": 6,
+                "east": 10
+            },
+            "items": []
+        },
+        {
+            "id": 999,
+            "description": "Special room containing all the inventory that is not shown atm.",
+            "exits": {
+            },
+            "items": []
+        }
+    ],
+    "items":[
+        
+    ]
+}

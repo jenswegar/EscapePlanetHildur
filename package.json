@@ -1,0 +1,25 @@
+{
+  "name": "fi.wegar.escapeplanethildur",
+  "version": "1.0.0",
+  "description": "Simple text based adventure game",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "./node_modules/.bin/parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenswegar/EscapePlanetHildur.git"
+  },
+  "author": "Jens Wegar",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jenswegar/EscapePlanetHildur/issues"
+  },
+  "homepage": "https://github.com/jenswegar/EscapePlanetHildur#readme",
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}
